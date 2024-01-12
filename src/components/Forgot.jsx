@@ -13,7 +13,8 @@ const Forgot = () => {
         />
         <span className="self-stretch flex w-full flex-col mt-11 mb-3.5 pl-7 pr-16">
           <div className="text-stone-500 text-3xl font-medium self-stretch ml-7">
-            <span className="text-3xl ml-16"> Forgot Password</span> <br />
+            <span className="text-3xl text-center"> Forgot Password</span>{" "}
+            <br />
           </div>
           <div className="border self-center flex w-[307px] shrink-0 max-w-full h-px flex-col mt-3 rounded-lg border-solid border-neutral-200" />
 

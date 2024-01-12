@@ -23,7 +23,7 @@ const Login = () => {
         />
         <span className="self-stretch flex w-full flex-col mt-11 mb-3.5 pl-7 pr-16">
           <div className="text-stone-500 text-3xl font-medium self-stretch ml-7">
-            <span className="text-3xl ml-36"> Login</span> <br />
+            <span className="text-3xl text-center"> Login</span> <br />
           </div>
           <div className="border self-center flex w-[307px] shrink-0 max-w-full h-px flex-col mt-3 rounded-lg border-solid border-neutral-200" />
           <span className="self-center flex w-full max-w-[322px] items-stretch justify-between gap-5 mt-2.5">
