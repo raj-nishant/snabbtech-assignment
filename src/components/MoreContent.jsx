@@ -25,7 +25,9 @@ const MoreContent = () => {
                 événements à venir autour du business en Afrique organisés en
                 Afrique ou à l'étranger.
               </div>
-              <div className="justify-center items-center self-stretch flex shrink-0 h-[59px] flex-col mt-12 rounded-[35px] border-[0.5px] border-solid border-stone-900 max-md:mt-10" />
+              <div className="justify-center items-center self-stretch flex shrink-0 h-[59px] flex-col mt-12 rounded-[35px] border-[0.5px] border-solid border-stone-900 max-md:mt-10">
+                Publier ou voir les événements{" "}
+              </div>
             </span>
           </div>
           <div className="flex flex-col items-stretch w-[45%] ml-5 max-md:w-full max-md:ml-0">

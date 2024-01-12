@@ -18,7 +18,9 @@ const Content = () => {
             Connectez-vous avec des organisations africaines, postulez au job de
             vos rêves en Afrique ou partagez votre expertise même à distance!
           </div>
-          <div className="justify-center items-center flex shrink-0 h-[59px] flex-col mt-20 rounded-[35px] border-[0.5px] border-solid border-stone-900 max-md:mt-10" />
+          <div className="justify-center items-center flex shrink-0 h-[59px] flex-col mt-20 rounded-[35px] border-[0.5px] border-solid border-stone-900 max-md:mt-10">
+            Voir tout
+          </div>
         </span>
         <img
           loading="lazy"
@@ -57,7 +59,9 @@ const Content = () => {
             Connectez-vous avec des organisations africaines, postulez au job de
             vos rêves en Afrique ou partagez votre expertise même à distance!
           </div>
-          <div className="justify-center items-center flex shrink-0 h-[59px] flex-col mt-20 rounded-[35px] border-[0.5px] border-solid border-stone-900 max-md:mt-10" />
+          <div className="justify-center items-center flex shrink-0 h-[59px] flex-col mt-20 rounded-[35px] border-[0.5px] border-solid border-stone-900 max-md:mt-10">
+            Voir tout{" "}
+          </div>
         </span>
       </div>
       <span className="flex w-full items-center justify-between gap-5 mt-52 pr-8 max-md:max-w-full max-md:flex-wrap max-md:mt-10 max-md:pr-5">
@@ -155,7 +159,9 @@ const Content = () => {
                 de notre communauté d'experts! Expert à la recherche d'un emploi
                 en Afrique? Trouvez le job de vos rêves!
               </div>
-              <div className="justify-center items-center flex shrink-0 h-[59px] flex-col mt-12 rounded-[35px] border-[0.5px] border-solid border-stone-900 max-md:mt-10" />
+              <div className="justify-center items-center flex shrink-0 h-[59px] flex-col mt-12 rounded-[35px] border-[0.5px] border-solid border-stone-900 max-md:mt-10">
+                Publier ou postuler à une offre d'emploi{" "}
+              </div>
             </span>
           </div>
           <div className="flex flex-col items-stretch w-[66%] ml-5 max-md:w-full max-md:ml-0">

@@ -251,7 +251,10 @@ const Body = () => {
                 src={map}
                 className="aspect-[0.96] object-contain object-center w-full overflow-hidden max-md:max-w-full"
               />
-              <div className="justify-center items-center self-center flex w-[331px] shrink-0 max-w-full h-[59px] flex-col mt-8 rounded-[35px] border-[0.5px] border-solid border-stone-900" />
+              <div className="justify-center items-center self-center flex w-[331px] shrink-0 max-w-full h-[59px] flex-col mt-8 rounded-[35px] border-[0.5px] border-solid border-stone-900">
+                {" "}
+                Explorer la Travel Map{" "}
+              </div>
             </div>
           </div>
         </div>
