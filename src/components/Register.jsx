@@ -1,4 +1,5 @@
 import star from "../assets/star.svg";
+import { Link } from "react-router-dom";
 
 const Register = () => {
   return (
@@ -54,9 +55,12 @@ const Register = () => {
           </div>
         </span>
         <span className="items-stretch self-center flex gap-3 mt-4"></span>
-        <div className="justify-center items-center self-center flex w-[235px] shrink-0 h-[59px] flex-col rounded-[35px] border-[0.5px] border-solid border-stone-900">
+        <Link
+          to="/home"
+          className="justify-center items-center self-center flex w-[235px] shrink-0 h-[59px] flex-col rounded-[35px] border-[0.5px] border-solid border-stone-900 hover:bg-white"
+        >
           Join PANDA
-        </div>
+        </Link>
         <div className="text-gray-400 text-center text-base leading-6 underline self-stretch mt-16">
           <span className="text-gray-400">
             By clicking on &quot;Create an account&quot;, you agree to our

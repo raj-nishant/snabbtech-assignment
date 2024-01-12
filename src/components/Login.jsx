@@ -44,7 +44,7 @@ const Login = () => {
         <span className="items-stretch self-center flex gap-3 mt-4"></span>
         <Link
           to="/home"
-          className="justify-center items-center self-center flex w-[235px] shrink-0 h-[59px] flex-col rounded-[35px] border-[0.5px] border-solid border-stone-900"
+          className="justify-center items-center self-center flex w-[235px] shrink-0 h-[59px] flex-col rounded-[35px] border-[0.5px] border-solid border-stone-900 hover:bg-white"
         >
           Login
         </Link>
