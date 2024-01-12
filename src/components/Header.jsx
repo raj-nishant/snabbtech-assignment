@@ -8,7 +8,7 @@ const Header = () => {
           EN - FR
         </div>
         <span className="self-stretch flex items-stretch justify-between gap-5 max-md:max-w-full max-md:flex-wrap">
-          <div className="text-stone-900 text-4xl font-[350] grow whitespace-nowrap">
+          <div className="text-stone-900 text-4xl font-[350] mr-80 grow whitespace-nowrap">
             <span className=""> Bienvenue sur </span>
           </div>
           <div className="text-stone-900 text-base leading-6  underline my-auto">
