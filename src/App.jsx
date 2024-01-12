@@ -7,8 +7,6 @@ import Footer from "./components/Footer.jsx";
 import Testimonial from "./components/Testimonial.jsx";
 import Founders from "./components/Founders.jsx";
 import Activities from "./components/Activities.jsx";
-import Login from "./components/Login.jsx";
-import Register from "./components/Auth.jsx";
 import Auth from "./components/Auth.jsx";
 import Header from "./components/Header.jsx";
 
