@@ -29,7 +29,7 @@ const Register = () => {
                 <input
                   type="text"
                   className="border-black"
-                  placeholder="**********"
+                  placeholder="Enter Email"
                 />
               </div>
             </span>
@@ -38,7 +38,7 @@ const Register = () => {
             <input
               type="text"
               className="border-black"
-              placeholder="**********"
+              placeholder="Enter Password"
             />
           </div>
         </span>

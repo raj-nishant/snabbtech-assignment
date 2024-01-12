@@ -36,7 +36,7 @@ const Login = () => {
                 <input
                   type="text"
                   className="border-black"
-                  placeholder="Enter Password"
+                  placeholder="Enter Email"
                 />
               </div>
             </span>
@@ -45,7 +45,7 @@ const Login = () => {
             <input
               type="text"
               className="border-black"
-              placeholder="Re-enter Password"
+              placeholder="Enter Password"
             />
           </div>
           <Link className="mt-7 ml-7 hover:bg-white" onClick={handleForgot}>
