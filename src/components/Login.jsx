@@ -1,8 +1,18 @@
+import { useState } from "react";
 import star from "../assets/star.svg";
 import { Link } from "react-router-dom";
+import Forgot from "./Forgot";
 
 const Login = () => {
-  return (
+  const [forgot, setForgot] = useState(false);
+
+  const handleForgot = () => {
+    setForgot(!forgot);
+  };
+
+  return forgot ? (
+    <Forgot />
+  ) : (
     <>
       <div className="bg-neutral-200 w-[230px] shrink-0 h-px" />
       <div className="border self-stretch flex w-full flex-col items-center mt-10 py-12 rounded-[250px_250px_0px_0px] border-solid border-neutral-200">
@@ -26,7 +36,7 @@ const Login = () => {
                 <input
                   type="text"
                   className="border-black"
-                  placeholder="**********"
+                  placeholder="Enter Password"
                 />
               </div>
             </span>
@@ -35,9 +45,12 @@ const Login = () => {
             <input
               type="text"
               className="border-black"
-              placeholder="**********"
+              placeholder="Re-enter Password"
             />
           </div>
+          <Link className="mt-7 ml-7 hover:bg-white" onClick={handleForgot}>
+            Forgot Password?
+          </Link>
         </span>
       </div>
       <span className="self-stretch flex w-full flex-col mt-9 px-12">
