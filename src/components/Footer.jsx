@@ -1,4 +1,4 @@
-import social from "../assets/social.png";
+import Social from "../assets/social.png";
 
 const Footer = () => {
   return (
@@ -101,7 +101,7 @@ const Footer = () => {
           </div>
           <img
             loading="lazy"
-            src={social}
+            src={Social}
             className="aspect-[7.73] object-contain object-center w-[116px] overflow-hidden shrink-0 max-w-full"
           />
         </span>
