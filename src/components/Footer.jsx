@@ -1,4 +1,4 @@
-import Social from "../assets/social.png";
+import Social from "../assets/Social.png";
 
 const Footer = () => {
   return (
